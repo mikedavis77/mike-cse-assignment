@@ -1,0 +1,5 @@
+{
+  "name": "Node.js Codespace",
+  "postCreateCommand": "npm ci",
+  "postStartCommand": "npm start"
+}
