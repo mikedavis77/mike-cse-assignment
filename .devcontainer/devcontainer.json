@@ -1,5 +1,12 @@
 {
-  "name": "Node.js Codespace",
+  "name": "Algolia Customer Solutions Assignment",
   "postCreateCommand": "npm ci",
-  "postStartCommand": "npm start"
+  "postStartCommand": "npm start",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Assignment",
+      "onAutoForward": "openPreview"
+    }
+  }
 }
