@@ -1,7 +1,7 @@
 {
   "name": "Algolia Customer Solutions Assignment",
   "postCreateCommand": "npm ci",
-  "postStartCommand": "npm start",
+  "postStartCommand": "npm start > /tmp/npm-start.log 2>&1 &",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
